@@ -98,7 +98,7 @@ const Creators = () => {
 </div>
 
 
-        <div className="py-5 px-5 sm:px-10 md:px-32 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 items-center gap-5">
+        <div className="py-5 px-5 sm:px-10 md:px-32 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3   items-center gap-5">
   {Creators.map((item, index) => (
     <div key={index} className="rounded-xl bg-gray-900 p-2 relative flex flex-col items-center justify-center w-full h-[200px] sm:w-[250px]">
       <span className="absolute top-1 left-1 rounded-full bg-gray-950 flex items-center justify-center text-white px-2">
