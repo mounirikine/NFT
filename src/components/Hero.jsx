@@ -22,7 +22,7 @@ const Hero = () => {
               <IoRocketOutline /> Get Started
             </Link>
 
-            <div className="flex flex-col md:flex-row items-center justify-between py-5 md:py-10">
+            <div className="flex flex-row md:flex-row items-center justify-between py-5 md:py-10">
               <div className="mb-4 md:mb-0">
                 <h1 className="text-xl md:text-3xl font-bold">240K+</h1>
                 <p>Total Sale</p>

@@ -15,30 +15,36 @@ const Work = () => {
           </div>
 
           <div className="py-10 px-10">
-            <main className="flex items-center justify-center gap-5">
-                <div className="w-4/12 flex flex-col items-center justify-center p-4 rounded-lg bg-slate-900 h-[400px]">
-                    <img src={icon1} alt="" className=' mb-2 w-44' />
+          <main className="flex flex-col md:flex-row items-center justify-center gap-5">
+  <div className="w-full md:w-4/12 flex flex-col items-center justify-center p-4 rounded-lg bg-slate-900 h-[400px] md:mr-2">
+    <img src={icon1} alt="" className="mb-2 w-44" />
 
-                    <h1 className='py-1'>Setup Your Wallet</h1>
-                    <p className='py-2 text-xs text-gray-400 text-center w-10/12'>Set up your Wallet of choice. <br />
-                    Connect it to Animarket by clicking the Wallet icon in the top right corner
-                    </p>
-                </div>
-                <div className="w-4/12 flex flex-col items-center justify-center p-4 rounded-lg bg-slate-900 h-[400px]">
-                    <img src={icon2} alt="" className=' mb-2 w-44' />
+    <h1 className="py-1">Setup Your Wallet</h1>
+    <p className="py-2 text-xs text-gray-400 text-center w-10/12">
+      Set up your Wallet of choice. <br />
+      Connect it to Animarket by clicking the Wallet icon in the top right corner
+    </p>
+  </div>
 
-                    <h1 className='py-1'>Create Collection </h1>
-                    <p className='py-2 text-xs text-gray-400 text-center w-10/12'>
-                    Upload your work and setup your collection. Add a description, social links and floor price.                    </p>
-                </div>
-                <div className="w-4/12 flex flex-col items-center justify-center p-4 rounded-lg bg-slate-900 h-[400px]">
-                    <img src={icon3} alt="" className=' mb-2 w-44' />
+  <div className="w-full md:w-4/12 flex flex-col items-center justify-center p-4 rounded-lg bg-slate-900 my-2 md:mx-2 h-[400px]">
+    <img src={icon2} alt="" className="mb-2 w-44" />
 
-                    <h1 className='py-1'>Start Earning</h1>
-                    <p className='py-2 text-xs text-gray-400 text-center w-10/12'>
-                    Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.                    </p>
-                </div>
-            </main>
+    <h1 className="py-1">Create Collection </h1>
+    <p className="py-2 text-xs text-gray-400 text-center w-10/12">
+      Upload your work and set up your collection. Add a description, social links, and floor price.
+    </p>
+  </div>
+
+  <div className="w-full md:w-4/12 flex flex-col items-center justify-center p-4 rounded-lg bg-slate-900 h-[400px] md:ml-2">
+    <img src={icon3} alt="" className="mb-2 w-44" />
+
+    <h1 className="py-1">Start Earning</h1>
+    <p className="py-2 text-xs text-gray-400 text-center w-10/12">
+      Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.
+    </p>
+  </div>
+</main>
+
           </div>
 
 

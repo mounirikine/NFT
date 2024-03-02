@@ -26,7 +26,7 @@ const Nfts = () => {
   
 </div>
 
-          <div className="px-10  flex items-center justify-center gap-8">
+          <div className="px-5 sm:px-10 md:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center gap-5 ">
             <div className="rounded-md">
                 <img src={Test} alt="" />
                 <div className="bg-gray-900 py-2 px-2 ">
