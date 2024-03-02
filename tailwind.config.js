@@ -14,6 +14,6 @@ export default {
       'roboto': ["Anta", 'sans-serif'], 
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 

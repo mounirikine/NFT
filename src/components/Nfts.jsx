@@ -97,6 +97,7 @@ const Nfts = () => {
           <div className="py-3 flex items-center justify-center">
           <img src={bg} className=" object-cover w-full h-full" alt=""  />
           </div>
+          <hr className="w-11/12 mx-auto mb-5 mt-5" />
 
       </main>
     </section>
