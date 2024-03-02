@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <section className="min-h-screen px-5 md:px-10">
         <main className="py-5 md:py-10 px-5 md:px-14 flex flex-col md:flex-row items-center justify-between">
-          <div className="w-full md:w-5/12 pt-10 md:pt-0 md:pr-10">
+          <div className="w-full md:w-6/12 m pt-10 md:pt-14 md:pr-10">
             <h1 className="text-4xl md:text-6xl w-full md:w-10/12 mb-4 md:mb-7 font-bold">
               Discover Digital Art & Collect NFTs
             </h1>
