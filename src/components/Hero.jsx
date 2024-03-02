@@ -22,16 +22,16 @@ const Hero = () => {
               <IoRocketOutline /> Get Started
             </Link>
 
-            <div className="flex flex-row md:flex-row items-center justify-between py-5 md:py-10">
-              <div className="mb-4 md:mb-0">
+            <div className="flex flex-row md:flex-row items-center  justify-between py-5 md:py-10">
+              <div className="mb-4 md:mb-0 w-4/12">
                 <h1 className="text-xl md:text-3xl font-bold">240K+</h1>
                 <p>Total Sale</p>
               </div>
-              <div className="mb-4 md:mb-0">
+              <div className="mb-4 md:mb-0 w-4/12">
                 <h1 className="text-xl md:text-3xl font-bold">100K+</h1>
                 <p>Auctions</p>
-              </div>
-              <div>
+              </div >
+              <div className="mb-4 md:mb-0 w-4/12">
                 <h1 className="text-xl md:text-3xl font-bold">240K+</h1>
                 <p>Artists</p>
               </div>

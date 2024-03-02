@@ -15,7 +15,7 @@ const Trending = () => {
           <div className="flex flex-col md:flex-row items-center justify-between px-5 sm:px-10 py-5 md:py-10">
           <div  className="mb-5 md:mb-0 md:mr-5">
                 <div>
-                  <img src="https://img.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_23-2149622021.jpg?size=626&ext=jpg&uid=R138084043&ga=GA1.1.1634089821.1701467307&semt=sph" className="w-full md:w-[270px]" alt="" />
+                  <img src="https://img.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_23-2149622021.jpg?size=626&ext=jpg&uid=R138084043&ga=GA1.1.1634089821.1701467307&semt=sph" className="w-[270px]" alt="" />
                 </div>
                 <div className="flex items-center justify-between py-2">
                   <span>
@@ -38,7 +38,7 @@ const Trending = () => {
               </div>
           <div  className="mb-5 md:mb-0 md:mr-5">
                 <div>
-                  <img src="https://i.pinimg.com/236x/84/fe/bb/84febb83ab4ed56e146c8cdff57b0b3e.jpg" className="w-full md:w-[270px]" alt="" />
+                  <img src="https://i.pinimg.com/236x/84/fe/bb/84febb83ab4ed56e146c8cdff57b0b3e.jpg" className="w-[270px]" alt="" />
                 </div>
                 <div className="flex items-center justify-between py-2">
                   <span>
@@ -61,7 +61,7 @@ const Trending = () => {
               </div>
           <div  className="mb-5 md:mb-0 md:mr-5">
                 <div>
-                  <img src="https://i.pinimg.com/236x/0d/82/4d/0d824d4a2119fbaa7ebc2f574c98e9bb.jpg" className="w-full md:w-[270px]" alt="" />
+                  <img src="https://i.pinimg.com/236x/0d/82/4d/0d824d4a2119fbaa7ebc2f574c98e9bb.jpg" className="w-[270px]" alt="" />
                 </div>
                 <div className="flex items-center justify-between py-2">
                   <span>
@@ -77,14 +77,14 @@ const Trending = () => {
                 <div>
                   <h1 className="py-1 text-base md:text-lg">NFT Animals</h1>
                   <div className="flex items-center gap-2">
-                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="" className="w-4 h-4 md:w-6 h-6" />
+                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="" className="w-4 h-4 md:w-6 " />
                     <p className="text-xs md:text-sm text-gray-400">Mounir</p>
                   </div>
                 </div>
               </div>
           <div  className="mb-5 md:mb-0 md:mr-5">
                 <div>
-                  <img src="https://i.pinimg.com/236x/db/5a/36/db5a36938eb1194781548f22844fa046.jpg" className="w-full md:w-[270px]" alt="" />
+                  <img src="https://i.pinimg.com/236x/db/5a/36/db5a36938eb1194781548f22844fa046.jpg" className="w-[279px]" alt="" />
                 </div>
                 <div className="flex items-center justify-between py-2">
                   <span>
@@ -100,7 +100,7 @@ const Trending = () => {
                 <div>
                   <h1 className="py-1 text-base md:text-lg">NFT Animals</h1>
                   <div className="flex items-center gap-2">
-                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="" className="w-4 h-4 md:w-6 h-6" />
+                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="" className="w-4  md:w-6 h-6" />
                     <p className="text-xs md:text-sm text-gray-400">Mounir</p>
                   </div>
                 </div>
