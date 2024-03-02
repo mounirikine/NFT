@@ -16,7 +16,7 @@ const Hero = () => {
               From More Than 20K NFT Artists
             </p>
             <Link
-              to="#"
+              to="/sign-in"
               className="px-5 md:px-10 py-3 rounded-md bg-violet-600 flex items-center gap-1 justify-center w-full md:w-4/12"
             >
               <IoRocketOutline /> Get Started

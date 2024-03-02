@@ -19,7 +19,7 @@ const Header = () => {
             <li className=""><Link to="#" className="text-white">RanKings</Link></li>
             <li className=""><Link to="#" className="text-white">Connect a Wallet</Link></li>
             <li className="">
-              <Link to="#" className="px-4 sm:px-8 bg-violet-600 py-3 rounded-md flex items-center gap-2">
+              <Link to="/sign-in" className="px-4 sm:px-8 bg-violet-600 py-3 rounded-md flex items-center gap-2">
                 <LuUser2 /> Sign Up
               </Link>
             </li>
@@ -43,7 +43,7 @@ const Header = () => {
             <li className="mb-2"><Link to="#" className="text-white">RanKings</Link></li>
             <li className="mb-2"><Link to="#" className="text-white">Connect a Wallet</Link></li>
             <li className="mb-2">
-              <Link to="#" className="px-4 sm:px-8 bg-violet-600 py-3 text-white hover:bg-violet-700 focus:bg-violet-600 focus:text-white rounded-md flex items-center gap-2">
+              <Link to="/sign-in" className="px-4 sm:px-8 bg-violet-600 py-3 text-white hover:bg-violet-700 focus:bg-violet-600 focus:text-white rounded-md flex items-center gap-2">
                 <LuUser2 /> Sign Up
               </Link>
             </li>
