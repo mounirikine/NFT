@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import LOGO from '../assets/logo.png'
 const Signup = () => {
   return (
-    <section className="bg-slate-950 dark:bg-gray-950">
+    <section className="bg-slate-950 dark:bg-gray-950 min-h-screen ">
   <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
       <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
           <img className="w-[200px] mr-2" src={LOGO} alt="logo" />
@@ -37,9 +37,9 @@ const Signup = () => {
                       </div>
                       <a href="#" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">htmlForgot password?</a>
                   </div>
-                  <button type="submit" className="w-full bg-violet-600 text-white py-3 rounded-md">Sign in</button>
+                  <button type="submit" className="w-full bg-violet-600 text-white py-3 rounded-md">Sign Up</button>
                   <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-                      Don’t have an account yet? <Link to="/Sign-up" className="font-medium text-violet-600">Sign up</Link>
+                      Already have Account? <Link to="/sign-in" className="font-medium text-violet-600">Sign In</Link>
                   </p>
               </htmlForm>
           </div>
