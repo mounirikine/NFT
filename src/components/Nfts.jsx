@@ -4,20 +4,29 @@ import Test from "../assets/test.png";
 import Test1 from "../assets/test2.png";
 import Test2 from "../assets/test3.png";
 import bg from "../assets/bg.png";
-
+import {motion} from 'framer-motion'
 const Nfts = () => {
   return (
     <>
       <section className="min-h-screen">
         <main className="lg:px-10 xl:px-20 py-10">
-          <div className="py-5 md:py-10 w-full px-5 sm:px-10 flex flex-col md:flex-row items-center justify-between">
+          <motion.div className="py-5 md:py-10 w-full px-5 sm:px-10 flex flex-col md:flex-row items-center justify-between">
             <div className="mb-5 md:mb-0">
               <h1 className="text-xl md:text-3xl mb-1">Discover More NFTs</h1>
               <p className="text-gray-400">Explore New Trending NFTs</p>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="px-5 sm:px-10 md:px-10 flex flex-col lg:flex-row items-center justify-center  gap-5 w-full ">
+          <motion.div 
+          variants={{
+            hidden: { opacity: 0, scale: 0 },
+            visible: { opacity: 1, scale: 1 },
+          }}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.6, delay: 0.25}}
+          
+          className="px-5 sm:px-10 md:px-10 flex flex-col lg:flex-row items-center justify-center  gap-5 w-full ">
             {Array.from({ length: 3 }).map((_, index) => (
               <div key={index} className="rounded-md mb-5">
                 <img src={index === 0 ? Test : index === 1 ? Test1 : Test2} alt={`NFT ${index}`} className="w-full" />
@@ -37,7 +46,7 @@ const Nfts = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </motion.div>
 
           <div className="py-5 md:py-10 flex items-center justify-center px-6">
             <Link

@@ -6,7 +6,7 @@ import { FaCamera } from "react-icons/fa";
 import { FaVideo } from "react-icons/fa";
 import { FaBasketballBall } from "react-icons/fa";
 import { FaMarsStrokeH } from "react-icons/fa";
-
+import {motion} from 'framer-motion'
 const Category = () => {
     const Creators = [
         { 
@@ -51,7 +51,17 @@ const Category = () => {
   return (
     <section className="min-h-screen">
       <main className="  lg:px-20 py-10">
-      <div className="py-5 md:py-10 w-full px-5 sm:px-10 flex flex-col md:flex-row items-center justify-between">
+      <motion.div 
+      variants={{
+        hidden: { opacity: 0, scale: 0 },
+        visible: { opacity: 1, scale: 1 },
+      }}
+      initial="hidden"
+      whileInView="visible"
+      transition={{ duration: 0.6, delay: 0.25}}
+      
+      
+      className="py-5 md:py-10 w-full px-5 sm:px-10 flex flex-col md:flex-row items-center justify-between">
   <div className="mb-5 md:mb-0">
     <h1 className="text-xl md:text-3xl mb-1">Browse Category</h1>
     <p className="text-gray-400">
@@ -60,10 +70,18 @@ const Category = () => {
   </div>
 
  
-</div>
+</motion.div>
 
 
-        <div className="py-5 px-5 sm:px-10 md:px-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-6 items-center gap-5">
+        <motion.div 
+        variants={{
+          hidden: { opacity: 0, scale: 0 },
+          visible: { opacity: 1, scale: 1 },
+        }}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 0.6, delay: 0.25}}
+        className="py-5 px-5 sm:px-10 md:px-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-6 items-center gap-5">
   {Creators.map((item, index) => (
     <div key={index} className="rounded-xl bg-violet-600  relative flex flex-col items-center justify-center w-full h-[200px] sm:w-[200px]">
       
@@ -73,7 +91,7 @@ const Category = () => {
       </p>
     </div>
   ))}
-</div>
+</motion.div>
 <div className="py-5 md:py-10 flex items-center justify-center px-6">
             <Link
               to="#"
