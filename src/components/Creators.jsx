@@ -1,6 +1,5 @@
 import { IoRocketOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import {motion} from 'framer-motion'
 
 const Creators = () => {
     const Creators = [
@@ -83,20 +82,12 @@ const Creators = () => {
     <section className="min-h-screen">
       <main className="  lg:px-20 py-10">
       <div className="py-5 md:py-10 w-full px-5 sm:px-10 flex flex-col md:flex-row items-center justify-between">
-  <motion.div
-variants={{
-  hidden: { opacity: 0, scale: 0 },
-  visible: { opacity: 1, scale: 1 },
-}}
-initial="hidden"
-whileInView="visible"
-transition={{ duration: 0.6, delay: 0.25}}
-   className="mb-5 md:mb-0">
+  <div className="mb-5 md:mb-0">
     <h1 className="text-xl md:text-3xl mb-1">Top Creators</h1>
     <p className="text-gray-400">
       Checkout Our Rated Creators On The NFT Marketplace
     </p>
-  </motion.div>
+  </div>
 
   <Link
     to="#"
@@ -107,16 +98,7 @@ transition={{ duration: 0.6, delay: 0.25}}
 </div>
 
 
-        <motion.div 
-         variants={{
-          hidden: { opacity: 0, scale: 0 },
-          visible: { opacity: 1, scale: 1 },
-        }}
-        initial="hidden"
-        whileInView="visible"
-        transition={{ duration: 0.6, delay: 0.25}}
-        
-        className="py-5 px-5 sm:px-10 md:px-32 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3   items-center gap-5">
+        <div className="py-5 px-5 sm:px-10 md:px-32 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3   items-center gap-5">
   {Creators.map((item, index) => (
     <div key={index} className="rounded-xl bg-gray-900 p-2 relative flex flex-col items-center justify-center w-full h-[200px] sm:w-[250px]">
       <span className="absolute top-1 left-1 rounded-full bg-gray-950 flex items-center justify-center text-white px-2">
@@ -129,7 +111,7 @@ transition={{ duration: 0.6, delay: 0.25}}
       </p>
     </div>
   ))}
-</motion.div>
+</div>
 <div className="py-5 md:py-10 flex items-center justify-center px-6">
             <Link
               to="#"

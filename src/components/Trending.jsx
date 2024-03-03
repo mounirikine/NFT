@@ -2,33 +2,17 @@ import { Link } from "react-router-dom";
 import NFT from "../../src/assets/dog.png";
 import { IoRocketOutline } from "react-icons/io5";
 
-import {motion} from 'framer-motion'
 const Trending = () => {
   return (
     <>
       <section className="min-h-screen">
         <main className="py-5 md:py-10 px-5 sm:px-10">
-          <motion.div  variants={{
-          hidden: { opacity: 0, scale: 0 },
-          visible: { opacity: 1, scale: 1 },
-        }}
-        initial="hidden"
-        whileInView="visible"
-        transition={{ duration: 0.6, delay: 0.25}}
-             className="py-5 md:py-10 w-full px-5 sm:px-10">
+          <div className="py-5 md:py-10 w-full px-5 sm:px-10">
             <h1 className="text-2xl md:text-3xl mb-1">Trending Collection</h1>
             <p className="text-gray-400">Checkout Our Weekly Updated Trending Collection</p>
-          </motion.div>
+          </div>
 
-          <motion.div 
-           variants={{
-            hidden: { opacity: 0, scale: 0 },
-            visible: { opacity: 1, scale: 1 },
-          }}
-          initial="hidden"
-          whileInView="visible"
-          transition={{ duration: 0.6, delay: 0.25}}
-          className="flex flex-col md:flex-row items-center justify-between px-5 sm:px-10 py-5 md:py-10">
+          <div className="flex flex-col md:flex-row items-center justify-between px-5 sm:px-10 py-5 md:py-10">
           <div  className="mb-5 md:mb-0 md:mr-5">
                 <div>
                   <img src="https://img.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_23-2149622021.jpg?size=626&ext=jpg&uid=R138084043&ga=GA1.1.1634089821.1701467307&semt=sph" className="w-[270px]" alt="" />
@@ -121,7 +105,7 @@ const Trending = () => {
                   </div>
                 </div>
               </div>
-          </motion.div>
+          </div>
           <div className="py-5 md:py-10 flex items-center justify-center">
             <Link
               to="#"
